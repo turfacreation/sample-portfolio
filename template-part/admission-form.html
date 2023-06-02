@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <!--Admission Section-->
+    <section class="admission">
+        <form action="" target="_blank" method="post" enctype="multipart/form-data">
+   <!--fieldset, legend-->        
+            <fieldset>
+                <legend>Present Address</legend>
+                    <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Bangladesh</option>
+                        </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Parmanent Address</legend>
+                    <label for="Country">Country </label>
+                        <select name="country" id="country">
+                        <option value="">Banglades</option>
+                        <option value="">Banglades</option>
+                        <option value="">Banglades</option>
+                        <option value="">Banglades</option>
+                    </select>
+                       
+            </fieldset>
+
+            <fieldset>
+                <legend>Select Drictrict</legend>
+                    <label for="District">District</label>
+                        <select name="district" id="district">
+                            <option value="">Dhaka</option>
+                            <option value="">Dhaka</option>
+                            <option value="">Dhaka</option>
+                            <option value="">Dhaka</option>
+                        </select>
+            </fieldset>
+            <!--form elements-->
+            <!--usernmae-->
+            <label for="username" id="username">User Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your User Name"> <br>
+
+            <!--passwaord-->
+                <label for="password">Enter Your Password</label> <br>
+                <input type="password" name="password" id="password"><button>view</button><!--aassignment for javascript--><br>
+            <!--username input with sield size-->
+                <label for="username" id="username">User Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your User Name" size="30"> <br>
+<!--bgcolor-->
+            <label for="color">Background Color</label>
+            <input type="color" name="bgcolor" id="bgcolor"><br>
+
+    <!--date -->
+        <label for="birthdate">Birth Date</label>  
+        <input type="date" name="birthdate" id="birthdate">   <br>   
+       <!--Date Range--> <h1>Get Report</h1><br>
+       <label for="startdate">Get Report befor 2021-01-01</label><br>
+       <input type="date" name="startdate" id="strartdate" max="2020-12-31"><br>
+
+       <label for="">End Date</label><br>
+       <input type="date" name="enddate" id="enddate" min="2024-01-01"><br>
+     <!--Radio Button-->
+            <label for="gender">What is Your Gender</label><br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="gender" value="male"><br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="gender" value="female"><br>
+            <label for="others">Others</label>
+            <input type="radio" name="gender" id="gender" value="others">
+            <br>
+   <!--check box-->  
+            <label for="applicable"> Check If applicable:</label>
+            <input type="checkbox" name="fatherdeceased" id="fatherdeceased" value="fatherdeceased"> <label for="fatherdeceased">Father Deceased</label><br>
+            
+            <input type="checkbox" name="parentsdivorced" id="parentsdivorced" value="parentsdivorced"> <label for="parentsdivorced">Parent Divorced</label><br>
+    <!--file-->        
+            <label for="userfohot">User Photo</label>
+            <input type="file" name="userphoto" id="userphoto"><br>
+<!--dropdown-->
+            <label for="occupation">Occoupation:</label>
+            <select name="occupation" id="occupation" size="10" multiple>Occoupation
+                <option value="students">Students</option>
+                <option value="service">Service</option>
+                <option value="teacher" selected>Teacher</option>
+            </select><br>
+<!--textarea-->
+            <label for="subject">Write Your Subject</label>
+            <textarea name="subject" id="subject" cols="30" rows="10" style="width: 650px; height: 850px;"></textarea>
+ <!--submit, reset button-->          
+            <input type="submit" value="Registration">
+            <button type="submit">Save</button>
+            <button type="reset" onclick="">Reset</button>
+        
+        </form>
+    </section>
+</body>
+</html>
